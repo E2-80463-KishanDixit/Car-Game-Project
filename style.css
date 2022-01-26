@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+#plot1{
+    background-image: url(cloud4.jpg);
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    animation: carmover1 linear 2s infinite;
+}
+
+.background{
+    background-image: url(background.png) ;
+    background-size: 100%;
+    height: 100%;
+    width: 130%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    animation: shake linear 4s infinite;
+    animation: carmover1 linear 1.5s infinite;
+    
+}
+.road{
+    background-image: url(road.png);
+    background-size: 1000% 20%;
+    background-position-y: 600px ;
+    height: 100%;
+    width: 1000%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    /* animation: carmover linear 6s infinite; */
+
+}
+
+
+#treep1{
+    background-image: url(tree1.png) ;
+    background-size: 20% 20%;
+    background-position-x: 1100px ;
+    background-position-y: 453px ;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    animation: carmover linear 2s infinite;
+
+}
+
+ #treep2{
+    background-image: url(tree1.png) ;
+    background-size: 20% 20%;
+    background-position-x: 1100px  ;
+    background-position-y: 453px ;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    animation: carmover linear 4s infinite;
+
+} 
+#treep3{
+    background-image: url(tree1.png) ;
+    background-size: 20% 20%;
+    background-position-x: 1100px ;
+    background-position-y: 453px ;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    animation: carmover linear 2.5s infinite;
+
+}
+
+#treep4{
+    background-image: url(tree2.png) ;
+    background-size: 20% 20%;
+    background-position-x: 1100px ;
+    background-position-y: 453px ;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    animation: carmover linear 2.9s infinite;
+
+}
+#treep5{
+    background-image: url(tree2.png) ;
+    background-size: 20% 20%;
+    background-position-x: 1100px ;
+    background-position-y: 453px ;;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    animation: carmover linear 3s infinite;
+
+} 
+
+.car{
+    background-image: url(perfect\ car.png) ;
+    background-size: 20% 20%;
+    background-position-x: 500px ;
+    background-position-y: 500px ;
+    height: 100%;
+    width: 110%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    animation: shake linear 4s infinite;
+
+
+}
+
+#left{
+    display: inline-block;
+    margin: 565px 0px 50px 520px ;
+}
+#left img{
+    height: 70px;
+    position: relative;
+     animation: wheelrotation linear .5s infinite;
+} 
+#right img{
+    height: 70px;
+    position: relative;
+     animation: wheelrotation linear .5s infinite;
+} 
+
+#right{
+    display: inline-block;
+    margin: 565px 0px 50px 140px ;
+}
+
+
+@keyframes wheelrotation{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes carmover{
+    100%{
+        transform: translatex(-500vw);
+    }
+}
+@keyframes carmover1{
+    0%{
+        transform: translatex(-5px);
+    }
+    50%{
+        transform: translatex(5px);
+    }
+    100
+        transform: translatex(5px);
+    }
+}
+
+@keyframes shake{
+    0%{
+        transform: translatey(-5px);
+    }
+    50%{
+        transform: translatey(5px);
+    }
+    100%{
+        transform: translatey(-5px);
+    }
+}
+
+
+
+
+
+
+
+
+ 
